@@ -30,6 +30,12 @@
           <string>com.anonymous.netomiDemo</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>exp+netomidemo</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>
@@ -69,6 +75,10 @@
     <key>UIUserInterfaceStyle</key>
     <string>Light</string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
+    <key>NSCameraUsageDescription</key>
+    <string> Your message for camera usage</string>
+    <key> NSMicrophoneUsageDescription</key>
+    <string> Your message for microphone usage</string>
     <false/>
   </dict>
 </plist>
