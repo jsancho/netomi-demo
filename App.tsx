@@ -1,20 +1,20 @@
 import "expo-dev-client";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { Button, StyleSheet, View } from "react-native";
 import NetomiChat from "@netomi.com/netomi-chat-react-native";
 import { useEffect } from "react";
 
-const NETOMI_BOT_REF_ID = "REPLACE_WITH_BOT_REF_ID";
-const region = "eu";
+const NETOMI_BOT_REF_ID = process.env.EXPO_PUBLIC_NETOMI_BOT_REF_ID;
+const NETOMI_REGION = "eu";
 
 export default function App() {
   useEffect(() => {
-    NetomiChat.initialize(NETOMI_BOT_REF_ID, region);
-    NetomiChat.launch(null);
+    NetomiChat.initialize(NETOMI_BOT_REF_ID, NETOMI_REGION);
   }, []);
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Button title="Open Chat" onPress={() => NetomiChat.launch(null)} />
       <StatusBar style="auto" />
     </View>
   );

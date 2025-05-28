@@ -36,6 +36,18 @@ Added the following permissions to `Info.plist`
 <false/>
 ```
 
+# Netomi configuration
+
+Create a `.env.local` file and include your botRefId with the following format
+
+```
+EXPO_PUBLIC_NETOMI_BOT_REF_ID=xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx
+```
+
+Mind that the values in this file are considered "public" as they will be included in the application artifact without encryption
+
+The metro dev server needs to be restarted to pick up and edits to env files.
+
 ## Run
 
 `npx expo run:android`
