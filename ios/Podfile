@@ -13,8 +13,19 @@ install! 'cocoapods',
 
 prepare_react_native_project!
 
+
+
 target 'netomiDemo' do
   use_expo_modules!
+
+  linkage_value = if ENV['USE_FRAMEWORKS']
+    ENV['USE_FRAMEWORKS'].to_sym
+  elsif podfile_properties['ios.useFrameworks']
+  podfile_properties['ios.useFrameworks'].to_sym
+  else
+    :dynamic
+  end
+  use_frameworks! :linkage => linkage_value
 
   if ENV['EXPO_USE_COMMUNITY_AUTOLINKING'] == '1'
     config_command = ['node', '-e', "process.argv=['', '', 'config'];require('@react-native-community/cli').run()"];

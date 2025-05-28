@@ -75,10 +75,10 @@
     <key>UIUserInterfaceStyle</key>
     <string>Light</string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
-    <key>NSCameraUsageDescription</key>
-    <string> Your message for camera usage</string>
-    <key> NSMicrophoneUsageDescription</key>
-    <string> Your message for microphone usage</string>
     <false/>
+    <key>NSCameraUsageDescription</key>
+    <string>Your message for camera usage</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Your message for microphone usage</string>
   </dict>
 </plist>
