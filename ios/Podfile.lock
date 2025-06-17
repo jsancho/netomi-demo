@@ -1,7 +1,7 @@
 PODS:
-  - AWSCore (2.40.2)
-  - AWSIoT (2.40.2):
-    - AWSCore (= 2.40.2)
+  - AWSCore (2.41.0)
+  - AWSIoT (2.41.0):
+    - AWSCore (= 2.41.0)
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
   - EXConstants (17.1.6):
@@ -354,12 +354,12 @@ PODS:
     - IQKeyboardCore
   - IQTextView (1.0.5):
     - IQKeyboardToolbar/Placeholderable
-  - NetomiChatReactNative (1.1.1):
+  - NetomiChatReactNative (1.1.2):
     - DoubleConversion
     - glog
     - hermes-engine
     - IQKeyboardManagerSwift
-    - NetomiChatSDK (= 1.1.5)
+    - NetomiChatSDK (= 1.1.6)
     - RCT-Folly (= 2024.11.18.00)
     - RCTRequired
     - RCTTypeSafety
@@ -380,7 +380,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - NetomiChatSDK (1.1.5):
+  - NetomiChatSDK (1.1.6):
     - AWSIoT
   - RCT-Folly (2024.11.18.00):
     - boost
@@ -2309,8 +2309,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AWSCore: 3d4b9508d6bc57d83d4efd44044e726dfd6c0cd1
-  AWSIoT: c73170fa985b59400cc03f35cf8f8003b9b689f8
+  AWSCore: ee7594bda3132cde8666328bf9a09d8770c1c100
+  AWSIoT: 186bd5c758b3331f2ad20e52477800ed7316399b
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   EXConstants: be238322d57d084dc055dbd5d6fe6479510504ce
@@ -2340,8 +2340,8 @@ SPEC CHECKSUMS:
   IQKeyboardToolbarManager: 6c693c8478d6327a7ef2107528d29698b3514dbb
   IQTextInputViewNotification: f5e954d8881fd9808b744e49e024cc0d4bcfe572
   IQTextView: ae13b4922f22e6f027f62c557d9f4f236b19d5c7
-  NetomiChatReactNative: 26a802baf2d06dba513e0bad14e5a732d62b7779
-  NetomiChatSDK: 6c2e943dd39dae25c3cc9e9a9aa3d9a16289a2c0
+  NetomiChatReactNative: abea8f4a3d0645362053d5d3367527a09f0b5c36
+  NetomiChatSDK: f646b6d5d5dedf5dea6ad90ab4f741c5524b3e3b
   RCT-Folly: 36fe2295e44b10d831836cc0d1daec5f8abcf809
   RCTDeprecation: 83ffb90c23ee5cea353bd32008a7bca100908f8c
   RCTRequired: eb7c0aba998009f47a540bec9e9d69a54f68136e

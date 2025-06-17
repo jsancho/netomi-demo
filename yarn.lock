@@ -1198,10 +1198,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@netomi.com/netomi-chat-react-native@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@netomi.com/netomi-chat-react-native/-/netomi-chat-react-native-1.1.1.tgz#9c009d3ac406857dbe40edf7b058da41b8155f38"
-  integrity sha512-F+cq++EFlDbLzZCEgjHu7XmOwXVDBNHyKX2E4Coq5mU1H6uAJv7lG/llT/P+VsedzplS/04WmBYEoBcxw39BpQ==
+"@netomi.com/netomi-chat-react-native@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@netomi.com/netomi-chat-react-native/-/netomi-chat-react-native-1.1.2.tgz#0aa4a12eef2c46458b14865f878fdaf3fe270bfe"
+  integrity sha512-SnqPKUy7e0tj73ALLm9nZcjTFdI1mPMEq/Z/ZRJuXeU3lOR43WsC/4mxJnKeatnBYDBJLXe8f/XZS9X8ZY3axA==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
